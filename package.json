@@ -1,0 +1,21 @@
+{
+  "name": "ditest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:watch": "./node_modules/.bin/tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon ./lib/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+
+  "devDependencies": {
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "@types/node": "^9.6.0",
+    "nodemon": "^1.17.2"
+  }
+}
